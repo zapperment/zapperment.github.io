@@ -23,15 +23,6 @@ function App() {
           />
           Your browser does not support the audio element.
         </audio>
-        <h2>Party Girl</h2>
-        <p>Live session 2, 25 Jan 2026</p>
-        <audio controls>
-          <source
-            src="./audio/zapperment.rocks - Party Girl (session 2).mp3"
-            type="audio/mpeg"
-          />
-          Your browser does not support the audio element.
-        </audio>
       </div>
 
       <div className="audio-player">
