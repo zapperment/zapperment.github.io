@@ -50,6 +50,45 @@
   border-radius: 8px;
 }
 
+.more-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 1.5rem;
+  padding: 0;
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 1.2rem;
+  font-family: inherit;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.more-toggle:hover {
+  opacity: 1;
+}
+
+.more-arrow {
+  display: inline-block;
+  font-size: 0.85em;
+  transition: transform 600ms ease;
+}
+
+.more-arrow--down {
+  transform: rotate(90deg);
+}
+
+.more-content {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 1000ms ease;
+}
+
+.more-content--open {
+  max-height: 600px;
+}
+
 @media (prefers-color-scheme: light) {
   .logo:hover {
     filter: drop-shadow(0 0 2em #6b7280);
