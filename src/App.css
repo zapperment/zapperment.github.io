@@ -1,7 +1,6 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
@@ -14,6 +13,56 @@
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #ffffff);
+}
+
+.hero {
+  width: 100vw;
+  position: relative;
+  left: calc((100% - 100vw) / 2);
+  box-sizing: border-box;
+  padding: 2rem 1rem;
+  background-color: #1a1a1a;
+  margin-bottom: 1rem;
+}
+
+.hero-inner {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.hero-bio {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.7;
+  text-align: center;
+  max-width: 90%;
+}
+
+.promo-pic {
+  max-height: 50vh;
+  width: auto;
+  display: block;
+  cursor: pointer;
+}
+
+@media (min-width: 900px) {
+  .hero {
+    padding: 0;
+  }
+
+  .hero-inner {
+    flex-direction: row;
+  }
+
+  .hero-bio {
+    width: calc(50vh * 857 / 1200);
+    max-width: none;
+    font-size: 1.7rem;
+    text-align: left;
+  }
 }
 
 .audio-player {
@@ -87,25 +136,6 @@
 
 .more-content--open {
   max-height: 600px;
-}
-
-@media (prefers-color-scheme: light) {
-  .logo:hover {
-    filter: drop-shadow(0 0 2em #6b7280);
-  }
-
-  .audio-player {
-    background: rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(0, 0, 0, 0.2);
-  }
-
-  .audio-player h2 {
-    color: #213547;
-  }
-
-  .audio-player p {
-    color: #4a5568;
-  }
 }
 
 @media (max-width: 600px) {

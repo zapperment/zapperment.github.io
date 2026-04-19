@@ -16,6 +16,30 @@ function App() {
       </div>
       <h1>zapperment.rocks</h1>
 
+      <div className="hero">
+        <div className="hero-inner">
+          <p className="hero-bio">
+            Patrick Hund a.k.a. <strong>zapperment.rocks</strong> — beat maker, keyboardist and
+            DJ from Wittstock, north-eastern Germany. His sound sits at the
+            intersection of techno, house, rock and EDM. Genre lines exist to be
+            ignored.
+          </p>
+          <a
+            href="/zapperment-rocks_promo-pic_fete26_xl.png"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="promo-pic"
+              src="/zapperment-rocks_promo-pic_fete26_s.png"
+              srcSet="/zapperment-rocks_promo-pic_fete26_xs.png 215w, /zapperment-rocks_promo-pic_fete26_s.png 429w, /zapperment-rocks_promo-pic_fete26_m.png 643w, /zapperment-rocks_promo-pic_fete26_l.png 857w"
+              sizes="(max-width: 768px) 300px, 385px"
+              alt="Zapperment.rocks promo photo from Fête 2026"
+            />
+          </a>
+        </div>
+      </div>
+
       <div className="audio-player">
         <h2>Party Girl</h2>
         <p>Live session 3, 18 Mar 2026</p>
