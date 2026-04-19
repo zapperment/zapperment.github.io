@@ -158,7 +158,7 @@
   h1 {
     font-size: 2rem;
   }
-.audio-player {
+  .audio-player {
     max-width: 100%;
     padding: 0 0.5rem 1rem 0.5rem;
   }
