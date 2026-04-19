@@ -7,14 +7,14 @@ function App() {
 
   return (
     <>
-      <div>
+      <header className="site-header">
         <img
           src={zappermentRocksLogo}
           className="logo"
           alt="zapperment.rocks logo"
         />
-      </div>
-      <h1>zapperment.rocks</h1>
+        <h1>zapperment.rocks</h1>
+      </header>
 
       <div className="hero">
         <div className="hero-inner">

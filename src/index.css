@@ -1,5 +1,13 @@
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  src: url('/fonts/YanoneKaffeesatz-VariableFont_wght.ttf') format('truetype');
+  font-weight: 200 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Yanone Kaffeesatz', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
