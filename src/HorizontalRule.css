@@ -1,0 +1,19 @@
+.horizontal-rule {
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .horizontal-rule {
+    display: flex;
+    height: 0.6rem;
+
+    width: 100vw;
+    position: relative;
+    left: calc((100% - 100vw) / 2);
+    box-sizing: border-box;
+  }
+}
+
+.horizontal-rule > * {
+  flex: 1;
+}

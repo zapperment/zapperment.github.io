@@ -1,6 +1,7 @@
 import { useState } from "react";
 import zappermentRocksLogo from "./assets/zapperment-rocks-logo.png";
 import "./App.css";
+import { HorizontalRule } from "./HorizontalRule";
 
 function App() {
   const [showMore, setShowMore] = useState(false);
@@ -15,6 +16,7 @@ function App() {
         />
         <h1>zapperment.rocks</h1>
       </header>
+      <HorizontalRule />
 
       <div className="hero">
         <div className="hero-inner">
