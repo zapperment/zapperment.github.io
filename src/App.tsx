@@ -44,10 +44,10 @@ function App() {
 
       <div className="audio-player">
         <h2>Party Girl</h2>
-        <p>Live session 3, 18 Mar 2026</p>
+        <p>Live session 4, 7 Jun 2026</p>
         <audio controls>
           <source
-            src="./audio/zapperment.rocks - Party Girl (session 3).mp3"
+            src="./audio/zapperment.rocks - Party Girl (session 4).mp3"
             type="audio/mpeg"
           />
           Your browser does not support the audio element.
@@ -58,6 +58,18 @@ function App() {
         <span className={`more-arrow ${showMore ? "more-arrow--down" : ""}`}>▶</span>
         More
       </button>
+
+      <div className="audio-player">
+        <h2>Party Girl</h2>
+        <p>Live session 3, 18 Mar 2026</p>
+        <audio controls>
+          <source
+            src="./audio/zapperment.rocks - Party Girl (session 3).mp3"
+            type="audio/mpeg"
+          />
+          Your browser does not support the audio element.
+        </audio>
+      </div>
 
       <div className={`more-content ${showMore ? "more-content--open" : ""}`}>
         <div className="audio-player">
