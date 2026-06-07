@@ -59,19 +59,19 @@ function App() {
         More
       </button>
 
-      <div className="audio-player">
-        <h2>Party Girl</h2>
-        <p>Live session 3, 18 Mar 2026</p>
-        <audio controls>
-          <source
-            src="./audio/zapperment.rocks - Party Girl (session 3).mp3"
-            type="audio/mpeg"
-          />
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-
       <div className={`more-content ${showMore ? "more-content--open" : ""}`}>
+        <div className="audio-player">
+          <h2>Party Girl</h2>
+          <p>Live session 3, 18 Mar 2026</p>
+          <audio controls>
+            <source
+              src="./audio/zapperment.rocks - Party Girl (session 3).mp3"
+              type="audio/mpeg"
+            />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+
         <div className="audio-player">
           <h2>Ten Pounds Lost in Ten Minutes</h2>
           <p>Version 2, 26 Jun 2025</p>
