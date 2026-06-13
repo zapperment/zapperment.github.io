@@ -1,13 +1,14 @@
 @font-face {
-  font-family: 'Yanone Kaffeesatz';
-  src: url('/fonts/YanoneKaffeesatz-VariableFont_wght.ttf') format('truetype');
+  font-family: "Yanone Kaffeesatz";
+  src: url("/fonts/YanoneKaffeesatz-VariableFont_wght.ttf") format("truetype");
   font-weight: 200 700;
   font-style: normal;
   font-display: swap;
 }
 
 :root {
-  font-family: 'Yanone Kaffeesatz', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family:
+    "Yanone Kaffeesatz", system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -15,7 +16,7 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 
-  font-synthesis: none;
+  font-synthesis: style;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
