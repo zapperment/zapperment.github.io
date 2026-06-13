@@ -96,12 +96,17 @@ function App() {
         </div>
       </section>
       <section className="hero section">
-        <img 
-          src="/promo-fete-wittstock2026_s.jpeg" 
-          srcSet="/promo-fete-wittstock2026_xs.jpeg 215w, /promo-fete-wittstock2026_s.jpeg 429w, /promo-fete-wittstock2026_m.jpeg 643w, /promo-fete-wittstock2026_l.jpeg 857w"
-          sizes="(max-width: 768px) 300px, 600px" 
-          alt="Kino Astoria Wittstock: Fête de la Musique — zapperment.rocks 21 June 2026 — live 17-18h"
-        />
+        <a
+          href="https://fete-wittstock.de/"
+          target="_blank"
+        >
+          <img 
+            src="/promo-fete-wittstock2026_s.jpeg" 
+            srcSet="/promo-fete-wittstock2026_xs.jpeg 215w, /promo-fete-wittstock2026_s.jpeg 429w, /promo-fete-wittstock2026_m.jpeg 643w, /promo-fete-wittstock2026_l.jpeg 857w"
+            sizes="(max-width: 768px) 300px, 600px" 
+            alt="Kino Astoria Wittstock: Fête de la Musique — zapperment.rocks 21 June 2026 — live 17-18h"
+          />
+        </a>
       </section>
     </>
   );
