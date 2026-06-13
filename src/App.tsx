@@ -72,7 +72,7 @@ function App() {
               <p>Live session 5, recorded 13 Jun 2026</p>
               <audio controls ref={partyGirlAudioRef}>
                 <source
-                  src="./audio/zapperment.rocks - Party Girl (session 4).mp3"
+                  src="./audio/zapperment.rocks - Party Girl (session 5).mp3"
                   type="audio/mpeg"
                 />
                 Your browser does not support the audio element.
