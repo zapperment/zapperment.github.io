@@ -69,10 +69,10 @@ function App() {
               />
             </button>
             <div className="audio-player">
-              <p>Live session 6, recorded 20 Jun 2026</p>
+              <p>Live performance from Fête de la Musique 2026</p>
               <audio controls ref={partyGirlAudioRef}>
                 <source
-                  src="./audio/zapperment.rocks - Party Girl (session 6).mp3"
+                  src="./audio/zapperment.rocks - Party Girl (Fête de la Musique 2026).mp3"
                   type="audio/mpeg"
                 />
                 Your browser does not support the audio element.
@@ -94,19 +94,6 @@ function App() {
             </p>
           </div>
         </div>
-      </section>
-      <section className="hero section">
-        <a
-          href="https://fete-wittstock.de/"
-          target="_blank"
-        >
-          <img 
-            src="/promo-fete-wittstock2026_s.jpeg" 
-            srcSet="/promo-fete-wittstock2026_xs.jpeg 215w, /promo-fete-wittstock2026_s.jpeg 429w, /promo-fete-wittstock2026_m.jpeg 643w, /promo-fete-wittstock2026_l.jpeg 857w"
-            sizes="(max-width: 768px) 300px, 600px" 
-            alt="Kino Astoria Wittstock: Fête de la Musique — zapperment.rocks 21 June 2026 — live 17-18h"
-          />
-        </a>
       </section>
     </>
   );
