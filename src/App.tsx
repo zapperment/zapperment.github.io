@@ -89,8 +89,7 @@ function App() {
               the kids had during my set, I realised there are no good or bad genres, there is only good music that hits
               a nerve and lifts you up emotionally… and there is music that doesn't. So I thought, ‘if Guetta can 
               butcher 80s and 90s gems like <em>Blue</em> or <em>Forever Young</em>, so can I’, and created this set
-              where I'm sampling some of my favourites, most prominently <em>Party Girl</em> by U2. It's all about the 
-              vibe and energy!”
+              where I'm sampling some of my favourites. It's all about the vibe and energy!”
             </p>
           </div>
         </div>
